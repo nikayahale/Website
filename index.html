@@ -3,79 +3,142 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Nikaya's Used Bikes</title>
-    <ion-header-bar>Nikaya's Used Bikes</ion-header-bar>
+    <title>CC Sickness Used Bikes</title>
+    <ion-header-bar>CC Sickness Used Bikes</ion-header-bar>
     <link rel="stylesheet" href="website.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
 <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                    <button type="button" class="navbar-toggle bg-primary text-white rounded" data-toggle="collapse" data-target=".navbar-collapse"
+                        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand text-uppercase navbar-left" class="section-title" href="#">Be sick with CC Sickness</a>
+            </div>
+            <div class="col-lg-4">
+                    <div class="input-group">
+                      <input type="text" class="form-control" placeholder="Search for...">
+                      <span class="input-group-btn">
+                        <button class="btn btn-default" type="button">Go</button>
+                      </span>
+                    </div>
+                  </div>
+            <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right nav-choices">
+                        <li class="active">
+                            <a href="#portfolio">Inventory</a>
+                        </li>
+                        <li class="active">
+                            <a href="#portfolio">My Basket</a>
+                        </li>
+                        <li class="active">
+                            <a href="#contact">Wishlist</a>
+                        </li>
+                        <li class="active">
+                            <a href="#contact">Login</a>
+                        </li>
+                    </ul>
+            </div>
+                    
+        </div>
+    </nav>
+    <section id=home>
     <div class="jumbotron banner">
         <div class:"container">
-            <p>Join the adventure</p>
+            <h1 id="title"> CC Sickness Used Motorcycles</h1>
+            <br>
+            <br>
+            <p>Join the adventure!</p>
+            <p>Which would you choose?</p>
+            <p>
          </div>
     </div>
-    
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#"><img src="img/facebook_20.png" alt="Facebook" border="0" class="socialIcon" /></a></li>
-                <li><a href="#"><img src="img/twitter_20.png" alt="Twitter" border="0" class="socialIcon" /></a></li>
-                <li><a href="#"><img src="img/google_plus_20.png" alt="Google Plus" border="0" class="socialIcon" /></a></li>
-                <li><a href="#"><img src="img/instagram_20.png" alt="Instagram" border="0" class="socailIcon"/></a></li>
-                <li><a href="#" class="active">Login</a></li>
-                <li><a href="#">My Basket</a></li>
-                <li><input type="search" id="search" placeholder="Search"></li>
-            </ul>
-        </nav>
-        <nav>
-            <h2>Which will you choose?</h2>
-            <ul>
-                <li>Kawasaki</li>
-                <li>Yamaha</li>
-                <li>Honda</li>
-                <li>Suzuki</li>
-                <li>Ducati</li>
-            </ul>
-        </nav>
-    </header>
+    </section>
+    <section id="portfolio">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="section-title">For Sale</h3>
+                        <div class="section-title-divider"></div>
+                    </div>
+                </div>
+                    <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail">
+                            <img src="josh.jpg" alt="...">
+                            <div class="caption">
+                                <h3>2009 Yamaha R1</h3>
+                                <h4>Enjoy the precision that Yamaha is known for on track or on the road.</h4>
+                                <ul>
+                                    <li>$6,300</li>
+                                    <li>10,982 miles</li>
+                                    <li>998 ccs</li>
+                                </ul>
+                                <p><a href="#" class="btn btn-primary" role="button">Buy</a> <a href="#" class="btn btn-default" role="button">Add To Wishlist</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail">
+                            <img src="justin.jpg" alt="...">
+                            <div class="caption">
+                              <h3>2016 Yamaha R1</h3>
+                              <h4>This Yamaha is practically brand new! Don't miss this great deal!</h4>
+                              <ul>
+                                    <li>$11,999</li>
+                                    <li>1,032 miles</li>
+                                    <li>998 ccs</li>
+                                </ul>
+                              <p><a href="#" class="btn btn-primary" role="button">Buy</a> <a href="#" class="btn btn-default" role="button">Add To Wishlist</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail">
+                            <img src="tony.jpg" alt="...">
+                            <div class="caption">
+                                <h3>2006 Honda CBR1000RR</h3>
+                                <h4>This classic Honda is reliable, and great!</h4>
+                                <ul>
+                                    <li>$4,499</li>
+                                    <li>17,867 miles</li>
+                                    <li>998 ccs</li>
+                                    <li>This classic Honda is reliable, and great!</li>
+                                </ul>
+                                <p><a href="#" class="btn btn-primary" role="button">Buy</a> <a href="#" class="btn btn-default" role="button">Add to Wishlist</a></p>
+                            </div>
+                        </div>
+                    </div>
+                <div class="row">
+                    <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail">
+                            <img src="billy.jpg" alt="...">
+                            <div class="caption">
+                                <h3>2010 Kawasaki ZX-10</h3>
+                                <h4>This power machine is ready to take on the drag strip!</h4>
+                                <ul>
+                                    <li>$8,299</li>
+                                    <li>12,001 miles</li>
+                                    <li>998 ccs</li>
+                                </ul>
+                                <p><a href="#" class="btn btn-primary" role="button">Buy</a> <a href="#" class="btn btn-default" role="button">Add To Wishlist</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-    <div class= 'bikeOne'>
-        <h2>2009 Yamaha R1</h2>
-        <img src= "josh.jpg">
-        <ul>
-            <li>$6,300</li>
-            <li>10,982 miles</li>
-            <li>998 ccs</li>
-            <li>Enjoy the precision that Yamaha is known for on track or on the road.</li>
-        </ul>
-    </div>
-    <div class= 'bikeTwo'
-        <h2>2016 Yamaha R1</h2>
-        <img src= "justin.jpg">
-        <ul>
-            <li>$11,999</li>
-            <li>1,032 miles</li>
-            <li>998 ccs</li>
-            <li>This Yamaha is practically brand new! Don't miss this great deal!</li>
-        </ul>
-    </div>
-    <h2>2006 Honda CBR1000RR</h2>
-    <img src="tony.jpg">
-    <ul>
-        <li>$4,499</li>
-        <li>17,867 miles</li>
-        <li>998 ccs</li>
-        <li>This classic Honda is reliable, and great!</li>
-    </ul>
-    <h2>2010 Kawasaki ZX-10</h2>
-    <img src="billy.jpg">
-    <ul>
-        <li>$8,299</li>
-        <li>12,001 miles</li>
-        <li>998 ccs</li>
-    </ul>
+
+            </div>
+    </section>
+   
+
     <footer>
         <span>&copy;2018 </span>
             <ul id="menuFooter">
